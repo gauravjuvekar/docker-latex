@@ -1,4 +1,4 @@
-FROM ubuntu:trusty
+FROM ubuntu:xenial
 MAINTAINER Gaurav Juvekar <gauravjuvekar@gmail.com>
 
 RUN apt-get update && apt-get install -y \
