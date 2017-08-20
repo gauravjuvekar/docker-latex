@@ -7,5 +7,5 @@ RUN apt-get update && apt-get install -y \
 		biber \
 		dot2tex \
 		inkscape \
-		gnuplot gnuplot-data gnuplot-tex \
+		gnuplot \
 		&& apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
