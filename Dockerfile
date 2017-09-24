@@ -18,4 +18,6 @@ RUN apt-get update && \
 		dot2tex \
 		inkscape \
 		gnuplot \
+		graphviz \
+		plantuml \
 		&& apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
