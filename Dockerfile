@@ -1,4 +1,4 @@
-FROM ubuntu:xenial
+FROM ubuntu:latest
 MAINTAINER Gaurav Juvekar <gauravjuvekar@gmail.com>
 
 # Now do this convoluted mess so that we have texlive-full except for the
@@ -21,4 +21,5 @@ RUN apt-get update && \
 		graphviz \
 		plantuml \
 		dia \
+		pdftk \
 		&& apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
